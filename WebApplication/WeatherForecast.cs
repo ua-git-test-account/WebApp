@@ -1,4 +1,4 @@
-namespace WebApplication
+namespace WebApp.Experiments
 {
     public class WeatherForecast
     {

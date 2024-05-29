@@ -3126,11 +3126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\WebApplication\\WebApplication\\WebApplication.csproj",
-      "projectName": "WebApplication",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\WebApplication\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "C:\\Andriy\\Work\\Repos\\WebApp\\WebApplication\\WebApplication\\WebApp.Experiments.csproj",
+      "projectName": "WebApp.Experiments",
+      "projectPath": "C:\\Andriy\\Work\\Repos\\WebApp\\WebApplication\\WebApplication\\WebApp.Experiments.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\WebApplication\\WebApplication\\obj\\",
+      "outputPath": "C:\\Andriy\\Work\\Repos\\WebApp\\WebApplication\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

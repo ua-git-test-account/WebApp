@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
+using WebApp.Experiments;
 
-namespace WebApplication.Controllers
+namespace WebApp.Experiments.Controllers
 {
     [Authorize]
     [ApiController]
