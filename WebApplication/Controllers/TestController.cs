@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
 using WebApp.Experiments.Models;
@@ -6,9 +5,9 @@ using WebApp.Experiments.Models;
 namespace WebApp.Experiments.Controllers
 {
     [ApiController]
-    [Route("WeatherForecast")]
+    [Route("Test")]
     [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
-    public class WeatherForecastController : ControllerBase
+    public class TestController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
@@ -17,13 +16,13 @@ namespace WebApp.Experiments.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public TestController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpPost] ///TODO: make the name of the action start with a small letter;
+        public IEnumerable<WeatherForecast> Get(InputFormModel input)
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
